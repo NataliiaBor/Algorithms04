@@ -9,7 +9,7 @@ public class OddEven {
 //            222222 →  “Even”
 //            2147483647 + 1 →  “Undefined”
 
-public static String OddEven(long number) {
+public static String oddEven(long number) {
     if (number < Integer.MIN_VALUE || number > Integer.MAX_VALUE) {
         return "Undefined";
     } else if (number % 2 == 0) {
